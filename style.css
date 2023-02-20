@@ -1,131 +1,131 @@
 /* main features  */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Find your holiday partner  */
 
 #login {
-    background-image: url(images/header.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20px;
+  background-image: url(images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  padding-top: 20px;
 }
 
 #login nav,
 #login {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
 #login nav div a {
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
 }
 
 .buttonfirst {
-    background: #1A191500 0% 0% no-repeat padding-box;
-    border: 2px solid #FFFFFF;
-    border-radius: 18px;
-    opacity: 1;
-    font-family: 'Montserrat', sans-serif;
-    padding: 7px;
+  background: #1a191500 0% 0% no-repeat padding-box;
+  border: 2px solid #ffffff;
+  border-radius: 18px;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+  padding: 7px;
 }
 
 .buttonfirst:hover,
 #login nav div a:hover {
-    border: none;
-    background-color: #fff;
-    color: rgb(85, 85, 85);
-    border-radius: 18px;
-    padding: 7px;
-
+  border: none;
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  border-radius: 18px;
+  padding: 7px;
 }
 
 #login h3 {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    margin: auto;
-    padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 100px;
 }
 
 #login h1 {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: bold;
-    margin: auto;
-    text-align: center;
-    margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
 }
 
 #login p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .buttontwo {
-    background: #FF4E50 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    border: #FF4E50;
-    height: 40px;
-    padding: 5px 20px;
-    margin: auto;
+  background: #ff4e50 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border: #ff4e50;
+  height: 40px;
+  padding: 5px 20px;
+  margin: auto;
 }
 
 .buttontwo {
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px;
-    text-decoration: none;
-    margin-bottom: 100px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 100px;
 }
 
 .buttontwo:hover {
-    background: #fb3337 0% 0% no-repeat padding-box;
-    color: #c6c6c6;
+  background: #fb3337 0% 0% no-repeat padding-box;
+  color: #c6c6c6;
 }
 
 /* main part  */
 main {
-    width: 90%;
-    margin: 20px auto;
-    text-align: center;
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
 }
 
 main div article.mycard {
-    text-align: left;
-    padding: 10px;
-    width: 90%;
-    height: 400px;
-    margin: auto;
-    background: transparent linear-gradient(0deg, #00000099 0%, #00000000 100%) 0% 0% no-repeat padding-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
+  text-align: left;
+  padding: 10px;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  background: transparent linear-gradient(0deg, #00000099 0%, #00000000 100%) 0%
+    0% no-repeat padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
 /* main div article span,
@@ -135,214 +135,228 @@ main div article p  {
     transform: translate(0px, 150px);
 } */
 
-
 main div article.mycard1 {
-    background-image: url(images/step1desk.png);
+  background-image: url(images/step1desk.png);
 }
 
 main div article.mycard2 {
-    background-image: url(images/step2desk.png);
+  background-image: url(images/step2desk.png);
 }
 
 main div article.mycard3 {
-    background-image: url(images/step3desk.png);
+  background-image: url(images/step3desk.png);
 }
 
 .buttonthree {
-    background: #FF4E50 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    letter-spacing: 2px;
-    color: #FFFFFF;
-    padding: 5px 25px;
-    margin: 20px 0;
+  background: #ff4e50 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 2px 15px;
+  margin: 20px 0;
 }
 
 .buttonthree:hover {
-    background: #f5272a 0% 0% no-repeat padding-box;
-    color: #a09e9e;
-
+  background: #f5272a 0% 0% no-repeat padding-box;
+  color: #a09e9e;
 }
 
 main div article.mycard h3 {
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
 
 main div article.mycard p {
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 main section h2 {
-    text-align: center;
-    letter-spacing: 0px;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
 }
 
 main section p {
-    text-align: center;
-    letter-spacing: 0px;
-    color: #333333;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #333333;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 main section {
-    margin-top: 30px;
-    margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 main section form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 main section form input {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 1px 0px #EEEEEE;
-    border: 1px solid #CCCCCC;
-    border-radius: 4px;
-    padding: 5px 15px;
-    text-align: left;
-    letter-spacing: 0px;
-    color: #999999;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 0px #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 5px 15px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #999999;
 }
 
 main section form button {
-    background: #FF4E50 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    padding: 5px 20px;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    border: #FF4E50;
+  background: #ff4e50 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border: #ff4e50;
 }
 
 main section form button:hover {
-    background: #fb7a7c 0% 0% no-repeat padding-box;
-    color: #ffd9d9;
+  background: #fb7a7c 0% 0% no-repeat padding-box;
+  color: #ffd9d9;
 }
 
 /* footer */
 footer {
-    border-top: 4px solid #FF4E50;
-    padding-bottom: 20px;
+  border-top: 4px solid #ff4e50;
+  padding-bottom: 20px;
 }
 
 footer ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
+  list-style: none;
+  text-align: center;
+  padding: 0;
 }
 
 footer h2 {
-    text-align: center;
-    letter-spacing: 0.8px;
-    color: #FF4E50;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #ff4e50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
 }
 
 footer h3 {
-    text-align: left;
-    letter-spacing: 0px;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    text-align: center;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: center;
 }
 
 footer ul a {
-    text-align: left;
-    letter-spacing: 0px;
-    color: #666666;
-    text-decoration: none;
-    padding: 10px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #666666;
+  text-decoration: none;
+  padding: 10px;
 }
 
 footer ul a:hover {
-    color: #303030;
-    text-decoration: underline;
+  color: #303030;
+  text-decoration: underline;
 }
 
 #company {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* Tablet version thanks to media-query (break point 768px) */
 
 @media screen and (min-width: 768px) {
-    #login nav {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-    }
+  #login nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
 
-    #login h1 {
-        font-size: 52px;
-    }
+  #login h1 {
+    font-size: 52px;
+  }
 
-    #login h3 {
-        padding: 30px;
-    }
+  #login h3 {
+    padding: 30px;
+    margin-right: 300px;
+  }
 
-    #login p {
-        font-size: 24px;
-    }
+  #login p {
+    font-size: 24px;
+  }
 
-    main div {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  main h1 {
+    margin-top: 70px;
+  }
 
-    main div article.mycard {
-        text-align: left;
-        padding: 10px;
-        width: 30%;
-    }
+  main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    main section form {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-    }
+  main div article.mycard {
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+  }
 
-    footer ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
+  main section {
+    padding-top: 30px;
+  }
 
-    footer h2 {
-        padding-top: 0px;
-    }
+  main section form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
 
-    #company {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
 
+  footer h2 {
+    padding-top: 0px;
+  }
+
+  #company {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
+/* desktop version thanks to media-query (break point 940px) */
 
 @media screen and (min-width: 940px) {
-    main {
-        width: 70%;
-        margin: auto;
-    }
-
+  main {
+    width: 70%;
+    margin: auto;
+  }
+  
+  footer ul {
+    justify-content: space-around;
+  }
+    #login h3 {
+    margin-right: 500px;
+  }
 }
